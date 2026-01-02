@@ -12,9 +12,16 @@ body {
     width: 600px;
     margin-top: 100px;
     border: 4px solid rgb(255, 0, 0);
+    position: relative;
 }
 
 #titi img {
+    position: absolute;
+    height: 80px;
+    cursor: crosshair;
+}
+#titi{
+    position: absolute;
     height: 80px;
     cursor: crosshair;
 }
@@ -31,5 +38,5 @@ body {
 }
 
 #start {
-    
+
 }
