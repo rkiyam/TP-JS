@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    background-image: url('nuage.avif');
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 600px;
+    margin-top: 100px;
+    border: 4px solid rgb(255, 0, 0);
+}
+
+#titi img {
+    height: 80px;
+    cursor: crosshair;
+}
+
+.score{
+    background-color: black;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.score p{
+    color: white;
+}
+
+#start {
+    
+}
